@@ -1,24 +1,294 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playbook — 3º Preparatoria — Misión M22: El Rol Humano en el Bucle de IA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
+  <header>
+    <h1><span class="book-icon">📋</span> <strong>Playbook Misión M22: El Rol Humano en el Bucle de IA</strong></h1>
+    <div class="header-widgets">
+      <div class="timer-container">
+        <span id="timer">⏱️ 00:00</span>
+        <button id="startStop">Start</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle-input">
+          <span class="slider round"></span>
+        </label>
+        <i class="fas fa-moon"></i>
+      </div>
+    </div>
+  </header>
+  <div class="main-container">
+    <aside class="activity-list">
+      <h2>Actividades</h2>
+      <ul>
+        <li><a href="#activity-0">📝</a></li>
+        <li><a href="#activity-1">1</a></li>
+        <li><a href="#activity-2">2</a></li>
+        <li><a "#activity-3">3</a></li>
+        <li><a href="#activity-4">4</a></li>
+        <li><a href="#activity-5">5</a></li>
+      </ul>
+      <div class="sidebar-info">
+        <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+        <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+      </div>
+    </aside>
+    <main class="content">
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+      <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+      <section class="activity-card" id="activity-0">
+        <h2 class="activity-title">📝 De un Vistazo: Misión M22: El Rol Humano en el Bucle de IA</h2>
+        <p class="activity-purpose">Resumen de objetivos, secuencia y entregables para la reflexión final del ciclo de IA.</p>
+        <div class="overview-table-container">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Objetivos e “I Can”</strong>
+                  <ul>
+                    <li>Puedo analizar el valor de la IA y la intervención humana en cada etapa del ciclo de desarrollo de proyectos.</li>
+                    <li>Puedo diseñar un prompt para un LLM que evalúe la colaboración humano-IA en un proyecto complejo.</li>
+                  </ul>
+                  <strong>Secuencia y tiempos</strong>
+                  <ol>
+                    <li>Saludo Interactivo con IA — 3 min</li>
+                    <li>“I Can” + Desafío — 5–7 min</li>
+                    <li>AI GYM — 10–12 min</li>
+                    <li>Brain Spark — 17–20 min</li>
+                    <li>GNIUS STORM — 5 min</li>
+                  </ol>
+                  <strong>Entregable del Micro-Proyecto</strong>
+                  <ul>
+                    <li>Un prompt 'post-mortem' para un LLM, diseñado para analizar un proyecto de IA complejo, extrayendo lecciones clave sobre la colaboración humano-IA y las decisiones estratégicas humanas.</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>Criterios de calidad (rúbrica exprés)</strong>
+                  <ul>
+                    <li>Claridad directiva del prompt.</li>
+                    <li>Profundidad de la reflexión sobre el rol humano en el bucle.</li>
+                    <li>Capacidad del prompt para identificar decisiones estratégicas no delegables a la IA.</li>
+                    <li>Evaluación crítica de la eficacia de la colaboración humano-IA.</li>
+                    <li>Potencial del prompt para generar un "playbook" de mejores prácticas.</li>
+                  </ul>
+                  <strong>Materiales y preparación</strong>
+                  <ul>
+                    <li>Proyector e internet</li>
+                    <li>Acceso a un LLM (ej. ChatGPT, Claude, Gemini)</li>
+                    <li>Ejemplo de prompt 'post-mortem' o plantilla de análisis de proyecto.</li>
+                  </ul>
+                  <strong>Preparación previa</strong>
+                  <ul>
+                    <li>Abrir sesiones de LLM.</li>
+                    <li>Tener un ejemplo de un prompt 'post-mortem' o una plantilla de análisis de proyecto lista para la demostración.</li>
+                    <li>Revisar el concepto de "Colaboración Humano-IA" y "Estrategia de Proyectos de IA".</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="activity-card" id="activity-1">
+        <h2 class="activity-title">Saludo Interactivo con IA</h2>
+        <p class="activity-purpose">Enmarcar el foco en la reflexión del ciclo de desarrollo de IA y activar a Xolo para la misión final.</p>
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 1 — Bienvenida y foco</h3>
+              <p class="step-instructions">Proyectar Diapositiva 2. Conecta el tema con el valor profesional de la reflexión sobre el ciclo completo de desarrollo de IA y el rol humano estratégico.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Equipo: hoy cerramos el ciclo de aprendizaje de este año. Reflexionaremos sobre el camino recorrido, el valor de la IA y, crucialmente, la irremplazable intervención humana en cada etapa de un proyecto. Nuestra misión es consolidar una visión estratégica del director de IA.</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 2 — Activación con Xolo</h3>
+              <p class="step-instructions">Cada estudiante envía a Xolo: “Hola Xolo, soy [Nombre], perfil [X]; me interesa [Y]. Misión M22. Necesito foco en [marco/herramienta].”</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Activen a Xolo con su perfil e intereses. Confirmen que comprendieron el enfoque de reflexión y estrategia para esta misión final. Xolo les guiará en este ejercicio de consolidación.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="activity-card" id="activity-2">
+        <h2 class="activity-title">“I Can Statement” + Desafío</h2>
+        <p class="activity-purpose">Alinear expectativas y definir el reto de diseñar un prompt de análisis post-mortem.</p>
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 1 — Presenta el reto</h3>
+              <p class="step-instructions">Proyectar Diapositiva 3. Describe el reto de diseñar un prompt 'post-mortem' para analizar un proyecto de IA complejo, enfatizando la extracción de lecciones clave sobre la colaboración humano-IA.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">El reto es diseñar una herramienta para la reflexión: un prompt 'post-mortem' para un LLM. Este prompt debe ser tan estratégico que, al usarlo, podamos desglosar cualquier proyecto de IA, identificar decisiones humanas cruciales y evaluar la sinergia con la inteligencia artificial.</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 2 — Escribe tu “I Can”</h3>
+              <p class="step-instructions">Proyectar Diapositiva 4. Cada estudiante redacta 1 “I Can” alineado al entregable (prompt 'post-mortem').</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Formula tu “Puedo…” en 1 frase: acción + criterio + resultado. Ej.: “Puedo diseñar un prompt para un LLM que analice la colaboración humano-IA en un proyecto, identificando decisiones estratégicas y lecciones aprendidas.”</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="activity-card" id="activity-3">
+        <h2 class="activity-title">AI GYM</h2>
+        <p class="activity-purpose">Formalizar el marco de reflexión sobre el rol humano en el bucle de IA a lo largo del ciclo de desarrollo.</p>
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 1 — Marco del día</h3>
+              <p class="step-instructions">Proyectar Diapositiva 5. Introduce el marco de 'Colaboración Humano-IA' y 'Estrategia de Proyectos de IA' como reflexión final del curso.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Hoy, el AI GYM nos lleva a una reflexión profunda. Xolo nos guiará a través del ciclo completo de desarrollo de IA, analizando dónde la IA aporta valor y dónde nuestra intervención humana es irremplazable. Este marco es crucial porque nos permite entender el rol del director como estratega y guardián de la calidad. Eviten el error de delegar ciegamente; usen la IA como un colaborador, no como un sustituto. Verifiquen siempre la trazabilidad del razonamiento y la justificación de las decisiones.</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 2 — Mini-demostración</h3>
+              <p class="step-instructions">Proyectar Diapositiva 6. Construye un ejemplo mínimo de pregunta o área de reflexión que Xolo podría plantear sobre el ciclo de desarrollo.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Observen cómo Xolo nos ayuda a desglosar un proyecto. Por ejemplo, en la fase de arquitectura, ¿qué decisiones estratégicas tomaste que la IA no podría haber tomado? ¿Cómo verificaste la calidad del código generado por IA? ¿Sí o no, la IA podría haber auditado la seguridad de manera autónoma sin tu supervisión?</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 3 — Check rápido</h3>
+              <p class="step-instructions">Proyectar Diapositiva 7. Verifica comprensión con 2 preguntas breves.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Pregunta 1: ¿Por qué es crucial la intervención humana en la fase de validación de modelos de IA? Pregunta 2: Menciona una decisión estratégica de proyecto que no podrías delegar a un LLM.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="activity-card" id="activity-4">
+        <h2 class="activity-title">Brain Spark</h2>
+        <p class="activity-purpose">Producir el entregable tangible del Micro-Proyecto (prompt 'post-mortem').</p>
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 1 — Producción</h3>
+              <p class="step-instructions">Proyectar Diapositiva 8. Indica la creación del prompt 'post-mortem' para un LLM, con un checklist de calidad (claridad, capacidad de extraer lecciones, identificar decisiones humanas, evaluar colaboración).</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">N/A</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 2 — Iteración</h3>
+              <p class="step-instructions">Proyectar Diapositiva 9. Pide una mejora concreta: refinar el prompt para asegurar que extraiga insights sobre la deuda técnica o la calidad del código, o que identifique áreas de mejora en la colaboración humano-IA.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Antes de cerrar: valida que tu prompt sea capaz de extraer no solo lecciones técnicas, sino también insights sobre la dinámica de colaboración humano-IA y las decisiones críticas tomadas por el director. Si no cumple, ajusta y vuelve a probar su efectividad.</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 3 — Evidencia</h3>
+              <p class="step-instructions">Proyectar Diapositiva 10. Solicita la entrega del prompt o un ejemplo de su aplicación (ej. la respuesta generada por el LLM a tu prompt).</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Entrega con nombre: [Misión]_[Equipo/Nombre]_[PromptPostMortem]. Incluye el prompt diseñado y, si es posible, una breve reflexión sobre cómo este prompt te ayuda a entender mejor tu rol de director de IA.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="activity-card" id="activity-5">
+        <h2 class="activity-title">GNIUS STORM</h2>
+        <p class="activity-purpose">Exhibir resultados y cerrar con síntesis accionable.</p>
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 1 — Showcase relámpago</h3>
+              <p class="step-instructions">2–3 presentaciones de 30–45 s, centradas en evidencia y criterio.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Enfoca tu presentación en la estructura de tu prompt, la decisión clave que te llevó a diseñarlo así, y qué tipo de insight esperas obtener sobre la colaboración humano-IA.</p>
+              </div>
+            </div>
+          </article>
+          <article class="step-card">
+            <div class="step-content">
+              <h3 class="step-title">Paso 2 — Cierre ejecutivo</h3>
+              <p class="step-instructions">Proyectar Diapositiva 11. Síntesis: 1 aprendizaje, 1 criterio de mayor impacto y 1 siguiente paso fuera del aula.</p>
+            </div>
+            <div class="collapsible">
+              <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+              <div class="collapsible-content">
+                <p class="dialogue assistant">Síntesis: El aprendizaje clave es que la IA aumenta nuestras capacidades, pero la dirección estratégica y la toma de decisiones críticas siempre recaen en el director humano. Criterio clave: La trazabilidad del razonamiento y la justificación de las decisiones son fundamentales. Siguiente paso aplicado: Utilizaré este prompt para auditar mis futuros proyectos y refinar mi playbook personal de dirección de IA.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
   <script src="script.js"></script>
 </body>
-
 </html>
